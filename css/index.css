@@ -1,0 +1,21 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* #control-panel {
+  height: 200px;
+  width: 400px;
+  margin: 20vh auto;
+  box-shadow: rgba(26, 26, 26, 0.1) 0px 1px 3px 0px;
+} */
+
+#myModal .modal-body {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
