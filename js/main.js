@@ -79,7 +79,7 @@ class Controller {
       cursor: 'auto'
     });
     $(document).off('mousemove.tick').off('click.start');
-    alert('结束！')
+    alert('毛球真笨！')
     this.ball.destroy();
     this.tick.destroy();
     this.bricks.destroyAll();
